@@ -8,7 +8,6 @@ import SwiftUI
 struct DetailsView: View {
     let movie: MovieData
     @StateObject private var viewModel = DetailsViewModel()
-    //@State private var isError: Bool = false
 
     var body: some View {
         ScrollView {
