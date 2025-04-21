@@ -13,8 +13,6 @@ class DetailsViewModel: ObservableObject {
     
     func fetchSimilarMovies(movieId: Int) {
         
-        let urlString = "https://api.themoviedb.org/3/movie/\(movieId)/similar?api_key=3db46ae545bd903b1d5740b03deddfe1&language=en"
-        
         guard let url = URL(string: urlString) else { return }
         
         Task {
