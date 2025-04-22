@@ -7,8 +7,7 @@
 
 import Foundation
 
-///services
-///
+
 import Foundation
 
 extension ContentView {
@@ -28,11 +27,3 @@ extension ContentView {
         }
     }
 }
-
-
-
-//File name for extension should be ContentView+ViewModel
-//Use StateObject.
-
-// State, Stateobject, ObservedObject
-
